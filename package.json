@@ -1,0 +1,33 @@
+{
+  "name": "sparkle.js",
+  "version": "0.0.1",
+  "description": "A intuitive javascript framework for build powerful discord applications.",
+  "homepage": "https://github.com/freitaseric/sparkle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freitaseric/sparkle.js"
+  },
+  "bugs": {
+    "url": "https://github.com/freitaseric/sparklejs/issues",
+    "email": "ericfreitas371@gmail.com"
+  },
+  "author": {
+    "email": "ericfreitas371@gmail.com",
+    "name": "Eric Freitas",
+    "url": "https://github.com/freitaseric"
+  },
+  "main": "dist/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
+}
