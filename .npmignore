@@ -1,0 +1,12 @@
+src/
+node_modules/
+.tsup/
+.github/
+playground/
+bun.lock
+tsconfig.json
+.gitignore
+.markdownlint.json
+biome.json
+commitlint.config.js
+tsup.config.js

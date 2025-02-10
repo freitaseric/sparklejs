@@ -16,7 +16,8 @@
     "name": "Eric Freitas",
     "url": "https://github.com/freitaseric"
   },
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "type": "module",
   "scripts": {
     "build": "tsup"
@@ -35,5 +36,15 @@
   "trustedDependencies": [
     "@biomejs/biome",
     "esbuild"
-  ]
+  ],
+  "imports": {
+    "#package": [
+      "./package.json"
+    ]
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "loggings": "^1.6.0",
+    "zod": "^3.24.1"
+  }
 }

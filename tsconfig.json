@@ -14,6 +14,13 @@
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noPropertyAccessFromIndexSignature": false
+    "noPropertyAccessFromIndexSignature": false,
+    "baseUrl": "./src",
+    "paths": {
+      "#core": ["./core/index.ts"],
+      "#exceptions": ["./exceptions/index.ts"],
+      "#runtime": ["./runtime/index.ts"],
+      "#package": ["../package.json"]
+    }
   }
 }
