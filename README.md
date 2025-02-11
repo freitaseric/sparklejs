@@ -20,7 +20,7 @@
             gap: 1.5rem;"
         >
         <img alt="GitHub forks" src="https://img.shields.io/github/forks/freitaseric/sparklejs">
-        <img alt="GitHub forks" src="https://img.shields.io/github/stars/freitaseric/sparklejs">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/freitaseric/sparklejs">
     </div>
         <div
         style="
@@ -31,7 +31,7 @@
             gap: 1rem;"
         >
         <img alt="GitHub License" src="https://img.shields.io/github/license/freitaseric/sparkleJS">
-        <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/freitaseric/sparkleJS/build.yml">
+        <img alt="NPM Downloads" src="https://img.shields.io/npm/dw/sparkle.js">
     </div>
     <h3>A intuitive javascript framework for build powerful discord applications.</h3>
 </div>
